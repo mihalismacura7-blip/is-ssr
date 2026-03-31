@@ -1,0 +1,31 @@
+{
+  "name": "is-ssr",
+  "version": "1.0.0",
+  "description": "Check if a webpage is server-side rendered or client-side rendered. See what Googlebot and AI crawlers actually see.",
+  "bin": {
+    "is-ssr": "./bin/is-ssr.js"
+  },
+  "keywords": [
+    "ssr",
+    "seo",
+    "server-side-rendering",
+    "client-side-rendering",
+    "googlebot",
+    "react",
+    "nextjs",
+    "vue",
+    "javascript-seo",
+    "crawler",
+    "web-crawling"
+  ],
+  "author": "JSVisible <support@jsvisible.com> (https://jsvisible.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihalismacura7-blip/is-ssr"
+  },
+  "homepage": "https://jsvisible.com",
+  "engines": {
+    "node": ">=14"
+  }
+}
