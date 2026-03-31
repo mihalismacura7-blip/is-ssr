@@ -1,4 +1,4 @@
-# is-ssr
+# @jsvisible/is-ssr
 
 Check if a webpage is server-side rendered (SSR) or client-side rendered (CSR). See exactly what Googlebot and AI crawlers see on first visit — before any JavaScript executes.
 
@@ -15,19 +15,19 @@ This tool shows you exactly what crawlers see.
 ## Usage
 
 ```bash
-npx is-ssr https://react.dev
+npx @jsvisible/is-ssr https://react.dev
 ```
 
 Check multiple URLs:
 
 ```bash
-npx is-ssr https://react.dev https://linear.app https://vercel.com
+npx @jsvisible/is-ssr https://react.dev https://linear.app https://vercel.com
 ```
 
 JSON output (for CI/CD pipelines):
 
 ```bash
-npx is-ssr https://example.com --json
+npx @jsvisible/is-ssr https://example.com --json
 ```
 
 ## What it checks
@@ -100,7 +100,7 @@ Automatically detects: React, Next.js, Vue, Nuxt.js, Angular, Svelte, Gatsby, As
 Add a rendering check to your deployment pipeline:
 
 ```bash
-npx is-ssr https://yoursite.com --json | node -e "
+npx @jsvisible/is-ssr https://yoursite.com --json | node -e "
   const data = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
   if (data[0].status === 'csr') {
     console.error('Page is client-side rendered — SEO risk');

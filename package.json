@@ -1,9 +1,9 @@
 {
-  "name": "is-ssr",
-  "version": "1.0.0",
+ "name": "@jsvisible/is-ssr",
+"version": "1.0.1",
   "description": "Check if a webpage is server-side rendered or client-side rendered. See what Googlebot and AI crawlers actually see.",
   "bin": {
-    "is-ssr": "./bin/is-ssr.js"
+    "is-ssr": "./is-ssr.js"
   },
   "keywords": [
     "ssr",
